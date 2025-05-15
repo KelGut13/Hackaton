@@ -1,0 +1,196 @@
+.Container-Inicio {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .Inicio-Seccion_Uno{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    text-align: center;
+  }
+  
+  /* Estilo por defecto (pantallas grandes) */
+  .Inicio-Seccion_Uno {
+    flex-direction: row; /* Facebook y reseña uno al lado del otro */
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Bloques individuales */
+  .resena {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .resena p {
+    margin: 0 auto; /* ← Lo centra dentro del contenedor */
+    line-height: 1.6;
+    font-size: 20px;
+    width: 90%;
+    text-align: justify;
+  }
+
+  .resena h1 {
+    color: #123558;
+  }
+
+  .facebook {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .reseña, .facebook, .espaciador {
+    width: 50%;
+  }
+  
+  .facebook-container {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .facebook-container .fb-page {
+    width: 100%;
+  }
+
+  /*Seccion Ubicacion*/
+  .ubicacion-titulo {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+    color: #123558; /* Asegúrate de que el color del título sea consistente */
+  }
+  
+  .ubicacion-contenido {
+    display: flex;
+    justify-content: space-between; /* Mantiene el mapa a la izquierda y el texto a la derecha */
+    align-items: center;
+    gap: 2rem;
+    padding: 0 1rem; /* Ajusta el margen */
+    width: 100%;
+  }
+  
+  .ubicacion-mapa {
+    flex: 1;
+    max-width: 600px;
+    order: 1; /* El mapa sigue estando a la izquierda */
+  }
+  
+  .ubicacion-mapa iframe {
+    width: 100%;
+    height: 300px;
+    border: 0;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Sombra elegante */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .ubicacion-mapa iframe:hover {
+    transform: scale(1.01); /* Leve zoom al pasar el mouse */
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+  }
+  
+  .ubicacion-texto {
+    flex: 1;
+    max-width: 400px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-align: center;
+    order: 2; /* El texto sigue estando a la derecha */
+    color: #333; /* Color de texto normal */
+  }  
+  
+  /* Secciones extra */
+  .Inicio-Seccion_Cuatro {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  .Inicio-Seccion-Cinco {
+    background-color: #606060;
+    height: 100vh;
+  }
+  
+  .Inicio-Seccion p {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* RESPONSIVE para móviles o tablets */
+  @media (max-width: 1024px) {
+    /* Sin cambios para tabletas, se mantiene el diseño con mapa a la izquierda y texto a la derecha */
+    .ubicacion-contenido {
+      flex-direction: row; /* El mapa sigue a la izquierda, el texto a la derecha */
+      gap: 2rem; /* Mantener el espacio entre el mapa y el texto */
+    }
+  
+    .ubicacion-mapa {
+      order: 1;
+      margin-top: 0;
+    }
+  
+    .ubicacion-texto {
+      order: 2;
+    }
+  
+    .ubicacion-mapa iframe {
+      height: 300px; /* Mantener el tamaño del mapa en tabletas y escritorio */
+    }
+  }
+
+  @media (max-width: 768px) {
+    .Inicio-Seccion_Uno {
+      flex-direction: column-reverse; /* reseña primero, luego Facebook */
+      align-items: center;
+      padding: 10px;
+    }
+  
+    .reseña,
+    .facebook {
+      width: 90%;
+      max-width: 100%;
+      text-align: center;
+    }
+
+    .facebook-container {
+        width: 100%;
+      }
+
+    .ubicacion-contenido {
+        flex-direction: column; /* Apilar el mapa y el texto en pantallas pequeñas */
+        gap: 1rem; /* Espacio entre el mapa y el texto */
+      }
+    
+    .ubicacion-mapa {
+        order: 2; /* El mapa va después del texto */
+        margin-top: 1rem; /* Espacio arriba del mapa */
+      }
+    
+    .ubicacion-texto {
+        order: 1; /* El texto va primero */
+      }
+    
+    .ubicacion-mapa iframe {
+        height: 250px; /* Ajusta la altura del mapa en pantallas pequeñas */
+      }
+  }
+  
+  @media (min-width: 1025px) {
+    .ubicacion-contenido {
+      max-width: 1100px; /* Añadir un límite máximo al ancho del contenedor */
+      margin: 0 auto; /* Centrar la sección de la ubicación */
+    }
+  }

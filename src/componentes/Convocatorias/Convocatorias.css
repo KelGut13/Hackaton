@@ -1,0 +1,121 @@
+.convocatorias-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #123558;
+  }
+  
+  .titulo-convocatorias {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: white;
+  }
+  
+  .tarjetas-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .tarjeta-convocatoria {
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.127);
+    padding: 15px;
+    transition: transform 0.3s;
+  }
+  
+  .tarjeta-convocatoria:hover {
+    transform: translateY(-5px);
+  }
+  
+  .tarjeta-convocatoria img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+  
+  .tarjeta-convocatoria h3 {
+    margin: 15px 0 10px;
+    font-size: 20px;
+    color: #123558;
+  }
+  
+  .tarjeta-convocatoria button {
+    padding: 8px 16px;
+    background-color: #123558;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .tarjeta-convocatoria button:hover {
+    background-color: #0e2b48;
+  }
+  
+  /* Modal */
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+  }
+  
+  .modal {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 500px;
+    width: 90%;
+    text-align: center;
+    position: relative;
+  }
+  
+  .modal img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: contain;
+    border-radius: 12px;
+    margin-bottom: 15px;
+  }
+  
+  .boton-descargar {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #123558;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+  }
+  
+  .cerrar {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #123558;
+  }
+  
+  /* Responsivo */
+  @media (max-width: 992px) {
+    .tarjetas-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .tarjetas-container {
+      grid-template-columns: 1fr;
+    }
+  }
+  

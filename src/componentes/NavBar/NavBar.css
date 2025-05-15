@@ -1,0 +1,148 @@
+/* Estilos generales del navbar */
+.navbar {
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    padding: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+    transition: transform 0.3s ease-in-out;
+}
+
+.navbar.hidden {
+    transform: translateY(-100%);
+}
+
+.navbar.visible {
+    transform: translateY(0);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.logo {
+    height: 75px;
+}
+
+/* Menú principal */
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.menu li a:hover {
+    color: #ce2f2a;
+}
+
+/* Botón de cambio de idioma */
+.language {
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    gap: 5px;
+}
+
+.language button {
+    border: none;
+    cursor: pointer;
+}
+
+/* Estilo para las banderas */
+.flag-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.flag {
+    width: 25px;
+    height: 18px;
+    border-radius: 3px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.flag-button:hover .flag {
+    transform: scale(1.1);
+}
+
+/* Menú hamburguesa con animación */
+.menu-toggle {
+    display: none;
+    width: 30px;
+    height: 30px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 1000;
+    padding-right: 35px;
+}
+
+.menu-toggle span {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: black;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+}
+
+/* Animación cuando el menú está abierto */
+.menu-toggle.open span:nth-child(1) {
+    transform: translateY(9px) rotate(50deg);
+}
+
+.menu-toggle.open span:nth-child(2) {
+    opacity: 0;
+}
+
+.menu-toggle.open span:nth-child(3) {
+    transform: translateY(-10px) rotate(-50deg);
+}
+
+/* Responsivo para móviles */
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+        flex-direction: column;
+        box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.2);
+        background-color: white;
+        width: 100%;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        padding: 15px 0;
+        text-align: center;
+    }
+
+    .menu.open {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+}

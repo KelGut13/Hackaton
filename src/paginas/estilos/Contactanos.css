@@ -1,0 +1,65 @@
+.contactanos-container {
+    padding: 40px 20px;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .contactanos-titulo {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .contactanos-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #f9f9f9;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contactanos-label {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .contactanos-input,
+  .contactanos-textarea {
+    padding: 10px 14px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: border 0.2s ease;
+  }
+  
+  .contactanos-input:focus,
+  .contactanos-textarea:focus {
+    border-color: #0077ff;
+    outline: none;
+  }
+  
+  .contactanos-boton {
+    padding: 12px;
+    font-size: 1rem;
+    background-color: #0077ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .contactanos-boton:hover {
+    background-color: #005fd1;
+  }
+  
+  .contactanos-estado {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 500;
+    color: green;
+  }
+  
