@@ -14,6 +14,34 @@ const Accesibilidad = () => {
     speechSynthesis.speak(mensaje);
   };
 
+const leerContenidoInicio = () => {
+  const elementosALeer = [];
+
+  // Seleccionamos semánticamente los elementos importantes
+  const tituloResena = document.querySelector(".resena h1");
+  const textoResena = document.querySelector(".resena p");
+  const ubicacionTitulo = document.querySelector(".ubicacion-titulo");
+  const ubicacionTexto = document.querySelector(".ubicacion-texto p");
+
+  // Añadir al arreglo solo si existen
+  if (tituloResena) elementosALeer.push(tituloResena.innerText);
+  if (textoResena) elementosALeer.push(textoResena.innerText);
+  if (ubicacionTitulo) elementosALeer.push(ubicacionTitulo.innerText);
+  if (ubicacionTexto) elementosALeer.push(ubicacionTexto.innerText);
+
+  // Verificamos si hay texto para leer
+  if (elementosALeer.length === 0) {
+    alert("No se encontró contenido accesible para leer.");
+    return;
+  }
+
+  const textoCompleto = elementosALeer.join(". ");
+  const mensaje = new SpeechSynthesisUtterance(textoCompleto);
+  mensaje.lang = "es-MX"; // Español México
+  speechSynthesis.speak(mensaje);
+};
+
+
   return (
     <div style={estilos.flotante}>
       <button onClick={() => setAbierto(!abierto)} style={estilos.boton}>
@@ -23,7 +51,7 @@ const Accesibilidad = () => {
       {abierto && (
         <div style={estilos.menu}>
           <button
-            onClick={leerTextoSeleccionado}
+            onClick={leerContenidoInicio}
             title="Narrador (selecciona texto)"
             style={estilos.icono}
           >
