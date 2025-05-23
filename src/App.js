@@ -8,6 +8,7 @@ import Directorio from "./paginas/Directorio";
 import Contactanos from "./paginas/Contactanos";
 import Footer from "./componentes/Footer/Footer";
 import "./i18n";
+import "./paginas/estilos/variables.css";
 
 const LanguageWrapper = () => {
   const { i18n } = useTranslation();
