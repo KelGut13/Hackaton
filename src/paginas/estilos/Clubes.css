@@ -6,6 +6,7 @@
   .clubes-titulo {
     font-size: 2rem;
     margin-bottom: 1.5rem;
+    color: var(--nb-text-color);
   }
   
   .clubes-tarjetas-container {
@@ -18,8 +19,12 @@
     border: 1px solid #ccc;
     padding: 1rem;
     border-radius: 8px;
-    background: #fff;
+    background: var(--ini-tevent-bgcolor);
     transition: transform 0.3s;
+  }
+
+  .clubes-tarjeta h3{
+    color: var(--nb-text-color);
   }
   
   .clubes-tarjeta:hover {
@@ -64,13 +69,14 @@
   }
   
   .clubes-modal {
-    background: white;
+    background: var(--ini-tevent-bgcolor);
     padding: 1.5rem;
     border-radius: 10px;
     max-width: 500px;
     width: 90%;
     text-align: center;
     position: relative;
+    color: var(--nb-text-color);
   }
   
   .clubes-modal img {
@@ -84,13 +90,13 @@
   /* NUEVA X SUTIL */
   .clubes-cerrar {
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 0px;
+    right: 0px;
     background: transparent;
     border: none;
-    font-size: 22px;
+    font-size: 35px;
     cursor: pointer;
-    color: #555;
+    color: #000;
     transition: color 0.3s ease;
   }
   

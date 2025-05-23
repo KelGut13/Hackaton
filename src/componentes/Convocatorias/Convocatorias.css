@@ -1,7 +1,7 @@
 .convocatorias-section {
     padding: 40px 20px;
     text-align: center;
-    background-color: #123558;
+    background-color: var(--ini-bgconv-color);
   }
   
   .titulo-convocatorias {
@@ -17,7 +17,7 @@
   }
   
   .tarjeta-convocatoria {
-    background-color: white;
+    background-color: var(--ini-tevent-bgcolor);
     border-radius: 16px;
     box-shadow: 0 4px 12px rgba(255, 255, 255, 0.127);
     padding: 15px;
@@ -38,7 +38,7 @@
   .tarjeta-convocatoria h3 {
     margin: 15px 0 10px;
     font-size: 20px;
-    color: #123558;
+    color: var(--ini-tevent-txtcolor);
   }
   
   .tarjeta-convocatoria button {
@@ -69,7 +69,7 @@
   }
   
   .modal {
-    background-color: white;
+    background-color: var(--ini-tevent-bgcolor);
     padding: 20px;
     border-radius: 12px;
     max-width: 500px;

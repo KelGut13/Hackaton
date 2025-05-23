@@ -86,6 +86,23 @@
     transform: scale(1.1);
 }
 
+/* Boton del tema */
+.theme-toggle {
+  background: none;
+  border: none;
+  color: var(--nb-text-color);
+  /*padding: 0.4rem 0.8rem;*/
+  /*border-radius: 4px;*/
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.theme-toggle:hover {
+  background: var(--text-color);
+  color: var(--bg-color);
+}
+
 /* Menú hamburguesa con animación */
 .menu-toggle {
     display: none;
@@ -121,20 +138,6 @@
 
 .menu-toggle.open span:nth-child(3) {
     transform: translateY(-10px) rotate(-50deg);
-}
-
-.theme-toggle {
-  background: none;
-  border: 1px solid var(--text-color);
-  color: var(--text-color);
-  padding: 0.4rem 0.8rem;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: background 0.3s;
-}
-.theme-toggle:hover {
-  background: var(--text-color);
-  color: var(--bg-color);
 }
 
 /* Responsivo para móviles */

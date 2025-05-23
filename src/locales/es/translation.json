@@ -4,7 +4,9 @@
     "directorio": "Directorio",
     "clubes": "Clubes",
     "contactanos": "Contactanos",
-    "language": "Idioma"
+    "language": "Idioma",
+    "darkmode": "Oscuro",
+    "lightmode": "Claro"
   },
 
   "footer": {

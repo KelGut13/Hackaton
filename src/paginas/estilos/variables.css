@@ -4,6 +4,8 @@
   --ini-titresena-color: #123558;
   --ini-tevent-bgcolor: #ffffff;
   --ini-tevent-txtcolor: #123558;
+  --ini-bgconv-color: #123558;
+  --map-shadow: rgba(0, 0, 0, 0.15);
 }
 
 [data-theme='dark'] {
@@ -12,4 +14,6 @@
   --ini-titresena-color: #3191f1;
   --ini-tevent-bgcolor: #777777;
   --ini-tevent-txtcolor: #ffffff;
+  --ini-bgconv-color: #061321;
+  --map-shadow: rgba(255, 255, 255, 0.257);
 }
