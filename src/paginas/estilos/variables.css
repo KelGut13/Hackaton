@@ -1,9 +1,15 @@
 :root {
   --nb-bg-color: #ffffff;
   --nb-text-color: #000000;
+  --ini-titresena-color: #123558;
+  --ini-tevent-bgcolor: #ffffff;
+  --ini-tevent-txtcolor: #123558;
 }
 
 [data-theme='dark'] {
   --nb-bg-color: #121212;
   --nb-text-color: #ffffff;
+  --ini-titresena-color: #3191f1;
+  --ini-tevent-bgcolor: #777777;
+  --ini-tevent-txtcolor: #ffffff;
 }

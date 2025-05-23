@@ -1,3 +1,7 @@
+body{
+  background-color: var(--nb-bg-color);
+}
+
 .Container-Inicio {
     display: flex;
     flex-direction: column;
@@ -37,10 +41,11 @@
     font-size: 20px;
     width: 90%;
     text-align: justify;
+    color: var(--nb-text-color);
   }
 
   .resena h1 {
-    color: #123558;
+    color: var(--ini-titresena-color);
   }
 
   .facebook {
