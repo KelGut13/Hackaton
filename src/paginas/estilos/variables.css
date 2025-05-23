@@ -4,6 +4,6 @@
 }
 
 [data-theme='dark'] {
-  --bg-color: #121212;
-  --text-color: #ffffff;
+  --nb-bg-color: #121212;
+  --nb-text-color: #ffffff;
 }

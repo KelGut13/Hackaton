@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import { Link, useParams, useNavigate, useLocation } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import { useTheme } from "../../context/ThemeContext";
 import logo from "../../imagenes/logo.svg";
 import mexicoFlag from "../../imagenes/mexicoFlag.svg";
 import usaFlag from "../../imagenes/usaFlag.svg";
@@ -14,6 +15,7 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [showNavbar, setShowNavbar] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
+  const { theme, toggleTheme } = useTheme();
   const menuRef = useRef(null);
 
   // Detectar si estamos en la página de inicio con idioma (ej. "/es" o "/en")
@@ -87,6 +89,11 @@ const Navbar = () => {
             </button>
             <button onClick={() => changeLanguage("en")} className="flag-button">
               <img src={usaFlag} alt="English" className="flag" />
+            </button>
+          </li>
+          <li>
+            <button onClick={toggleTheme} className="theme-toggle">
+              {theme === "light" ? "🌙 " + t("navbar.darkmode") : "☀️ " + t("navbar.lightmode")}
             </button>
           </li>
           <li></li>
