@@ -5,6 +5,7 @@ import "./estilos/Inicio.css";
 import Carrusel from "../componentes/Carrusel/Carrusel";
 import Eventos from "../componentes/Eventos/Eventos";
 import Convocatorias from "../componentes/Convocatorias/Convocatorias";
+import Accesibilidad from "../componentes/Accesibilidad/Accesibilidad.jsx";
 
 const Inicio = () => {
 
@@ -88,7 +89,7 @@ const Inicio = () => {
           </div>
         </div>
       </div>
-
+      <Accesibilidad />
     </div>
   );
 }

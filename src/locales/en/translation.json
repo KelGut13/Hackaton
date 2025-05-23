@@ -3,7 +3,9 @@
     "inicio": "Home",
     "clubes": "Clubs",
     "contactanos": "Contact Us",
-    "language": "Language"
+    "language": "Language",
+    "darkmode": "Dark",
+    "lightmode": "Light"
   },
 
   "footer": {
