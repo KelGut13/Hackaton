@@ -5,7 +5,7 @@
     right: 0;
     position: fixed;
     width: 100%;
-    background-color: var(--nb-color);
+    background-color: var(--nb-bg-color);
     padding: 8px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
     z-index: 10;
@@ -42,7 +42,7 @@
 
 .menu li a {
     text-decoration: none;
-    color: black;
+    color: var(--nb-text-color);
     font-weight: bold;
     transition: color 0.3s ease;
 }
@@ -56,7 +56,7 @@
     align-items: center;
     display: flex;
     text-decoration: none;
-    color: black;
+    color: var(--nb-text-color);
     font-weight: bold;
     transition: color 0.3s ease;
     gap: 5px;
@@ -105,7 +105,7 @@
     display: block;
     width: 30px;
     height: 3px;
-    background: black;
+    background: var(--nb-text-color);
     border-radius: 5px;
     transition: all 0.2s ease-in-out;
 }
@@ -129,7 +129,7 @@
         display: none;
         flex-direction: column;
         box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.2);
-        background-color: white;
+        background-color: var(--nb-bg-color);
         width: 100%;
         position: absolute;
         top: 70px;

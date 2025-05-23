@@ -1,6 +1,6 @@
 :root {
-  --nb-color: #ffffff;
-  --text-color: #000000;
+  --nb-bg-color: #ffffff;
+  --nb-text-color: #000000;
 }
 
 [data-theme='dark'] {
