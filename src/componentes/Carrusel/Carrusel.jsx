@@ -5,7 +5,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "../Carrusel/Carrusel.css";
 import carrusel1 from "../../imagenes/carrusel/img1_carrusel.jpg";
-import carrusel2 from "../../imagenes/carrusel/Banner eu mx.svg";
+import carrusel2 from "../../imagenes/carrusel/Bannereumx.svg";
 
 
 const Carrusel = () => {
