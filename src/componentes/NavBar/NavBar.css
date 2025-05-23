@@ -7,7 +7,7 @@
     width: 100%;
     background-color: var(--nb-bg-color);
     padding: 8px;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 2px 5px var(--nb-shadow-color);
     z-index: 10;
     transition: transform 0.3s ease-in-out;
 }
@@ -100,7 +100,7 @@
 }
 .theme-toggle:hover {
   background: var(--text-color);
-  color: var(--bg-color);
+  color: #ce2f2a;
 }
 
 /* Menú hamburguesa con animación */

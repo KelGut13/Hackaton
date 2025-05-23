@@ -1,19 +1,27 @@
 :root {
   --nb-bg-color: #ffffff;
   --nb-text-color: #000000;
+  --nb-shadow-color: rgba(0, 0, 0, 0.2);
   --ini-titresena-color: #123558;
   --ini-tevent-bgcolor: #ffffff;
   --ini-tevent-txtcolor: #123558;
   --ini-bgconv-color: #123558;
   --map-shadow: rgba(0, 0, 0, 0.15);
+  --cont--bg-color: #f9f9f9;
+  --cont-label-color: #333;
+  --cont-input-color: #ffffff;
 }
 
 [data-theme='dark'] {
   --nb-bg-color: #121212;
   --nb-text-color: #ffffff;
+  --nb-shadow-color: rgba(255, 255, 255, 0.313);
   --ini-titresena-color: #3191f1;
   --ini-tevent-bgcolor: #777777;
   --ini-tevent-txtcolor: #ffffff;
-  --ini-bgconv-color: #061321;
+  --ini-bgconv-color: #0b223b;
   --map-shadow: rgba(255, 255, 255, 0.257);
+  --cont--bg-color: #616161;
+  --cont-label-color: #ffffff;
+  --cont-input-color: #8f8f8f;
 }
