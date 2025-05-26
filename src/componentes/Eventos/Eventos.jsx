@@ -2,11 +2,8 @@ import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import './Eventos.css';
 
-//Importación de imagenes de los eventos
 import Evento1 from "../../imagenes/Eventos/Evento1.png";
 import EventoEj from "../../imagenes/Eventos/EventoEj.png";
-
-//Importación de los archivos (PDF o Imagen) de los eventos
 import Evento1pdf from "../../descargas/DescEventos/Evento1.pdf";
 
 const eventos = [
@@ -29,7 +26,12 @@ export default function Eventos() {
           <div className="tarjeta-evento" key={evento.id}>
             <img src={evento.imagen} alt={t(evento.titulo)} />
             <h3>{t(evento.titulo)}</h3>
-            <button onClick={() => setEventoActivo(evento)}>{t("eventos.ver")}</button>
+            <div className="tooltip-wrapper">
+              <button onClick={() => setEventoActivo(evento)}>
+                {t("eventos.ver")}
+              </button>
+              <span className="tooltip-text">{t("eventos.tooltipVer")}</span>
+            </div>
           </div>
         ))}
       </div>
@@ -38,9 +40,12 @@ export default function Eventos() {
         <div className="modal-overlay" onClick={() => setEventoActivo(null)}>
           <div className="modal" onClick={(e) => e.stopPropagation()}>
             <img src={eventoActivo.imagen} alt={t(eventoActivo.titulo)} />
-            <a href={eventoActivo.archivo} download className="boton-descargar">
-              {t("eventos.descargar")}
-            </a>
+            <div className="tooltip-wrapper">
+              <a href={eventoActivo.archivo} download className="boton-descargar">
+                {t("eventos.descargar")}
+              </a>
+              <span className="tooltip-text">{t("eventos.tooltipDescargar")}</span>
+            </div>
             <button className="cerrar" onClick={() => setEventoActivo(null)}>X</button>
           </div>
         </div>

@@ -30,18 +30,21 @@
     "direccion": "514 W Anaheim St, Wilmington, CA 90744, Estados Unidos"
   },
 
-    "eventos": {
-      "titulo": "Eventos",
-      "ver": "Ver",
-      "descargar": "Descargar",
-      "titulos": {
-        "evento1": "Feria de Nayarit en California",
-        "evento2": "Feria Universitaria 2025",
-        "evento3": "Seminario de Innovación",
-        "evento4": "Taller de Robótica",
-        "evento5": "Encuentro de Emprendedores"
-      }
-    },
+   "eventos": {
+  "titulo": "Eventos",
+  "ver": "Ver",
+  "descargar": "Descargar",
+  "tooltipVer": "Haz clic para ver más información del evento",
+  "tooltipDescargar": "Haz clic para descargar el documento del evento",
+  "titulos": {
+    "evento1": "Primer evento oficial",
+    "evento2": "Segundo evento",
+    "evento3": "Tercer evento",
+    "evento4": "Cuarto evento",
+    "evento5": "Quinto evento"
+  }
+},
+
   
       "convocatorias": {
         "titulo": "Convocatorias",

@@ -33,12 +33,14 @@
     "titulo": "Events",
     "ver": "View",
     "descargar": "Download",
+    "tooltipVer": "Click to view more information about the event",
+    "tooltipDescargar": "Click to download the event document",
     "titulos": {
-      "evento1": "Nayarit Fair in California",
-      "evento2": "University Fair 2025",
-      "evento3": "Innovation Seminar",
-      "evento4": "Robotics Workshop",
-      "evento5": "Entrepreneurship Meetup"
+      "evento1": "First official event",
+      "evento2": "Second event",
+      "evento3": "Third event",
+      "evento4": "Fourth event",
+      "evento5": "Fifth event"
     }
   },
 
