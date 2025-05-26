@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./estilos/Contactanos.css";
 import Separar from "../componentes/Separador NavBar/Separador";
+import Accesibilidad from "../componentes/Accesibilidad/Accesibilidad";
 
 function Contactanos() {
   const [formData, setFormData] = useState({
@@ -94,6 +95,7 @@ function Contactanos() {
       </form>
 
       {estado && <p className="contactanos-estado">{estado}</p>}
+    <Accesibilidad/>
     </div>
   );
 }

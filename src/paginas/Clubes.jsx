@@ -3,6 +3,7 @@ import Separar from "../componentes/Separador NavBar/Separador";
 import { useTranslation } from "react-i18next";
 import "./estilos/Clubes.css";
 import clubesData from "../data/clubesData.js";
+import Accesibilidad from "../componentes/Accesibilidad/Accesibilidad.jsx";
 
 export default function Clubes() {
   const { t } = useTranslation();
@@ -25,6 +26,7 @@ export default function Clubes() {
         ))}
       </div>
 
+      <Accesibilidad/>
       {clubActivo && (
         <div className="clubes-modal-overlay" onClick={() => setClubActivo(null)}>
           <div className="clubes-modal" onClick={(e) => e.stopPropagation()}>
@@ -35,8 +37,10 @@ export default function Clubes() {
             <p><strong>{t("clubs.contacto.telefono")}:</strong> {clubActivo.telefono}</p>
             <button className="clubes-cerrar" onClick={() => setClubActivo(null)}>×</button>
           </div>
+          <Accesibilidad/>
         </div>
       )}
     </div>
   );
+  
 }
