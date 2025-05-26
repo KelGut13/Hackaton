@@ -30,4 +30,32 @@
     padding: 8px 12px;
     border-radius: 8px;
   }
+
+  .slide-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.slide-tooltip {
+  visibility: hidden;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: #fff;
+  text-align: center;
+  padding: 8px 12px;
+  border-radius: 4px;
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  z-index: 10;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.slide-wrapper:hover .slide-tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+
   
