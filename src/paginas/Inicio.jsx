@@ -6,6 +6,7 @@ import Carrusel from "../componentes/Carrusel/Carrusel";
 import Eventos from "../componentes/Eventos/Eventos";
 import Convocatorias from "../componentes/Convocatorias/Convocatorias";
 import Accesibilidad from "../componentes/Accesibilidad/Accesibilidad.jsx";
+import video from "../videos/videofenine.mp4";
 
 const Inicio = () => {
 
@@ -63,6 +64,12 @@ const Inicio = () => {
                 {t("inicio.texto-resena")}
             </p>
         </div>
+      </div>
+
+      <div className="video-container">
+        <video width="640" height="360" controls>
+          <source src={video} type="video/mp4"/>
+        </video>
       </div>
 
       <div className="Inicio-Seccion_Dos">
