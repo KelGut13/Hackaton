@@ -36,11 +36,11 @@
   "tooltipVer": "Haz clic para ver más información del evento",
   "tooltipDescargar": "Haz clic para descargar el documento del evento",
   "titulos": {
-    "evento1": "Primer evento oficial",
-    "evento2": "Segundo evento",
-    "evento3": "Tercer evento",
-    "evento4": "Cuarto evento",
-    "evento5": "Quinto evento"
+    "evento1": "Reposteria",
+    "evento2": "Carpinteria",
+    "evento3": "Electricidad",
+    "evento4": "Fontaneria",
+    "evento5": "Marmolero"
   }
 },
 
@@ -50,11 +50,11 @@
         "ver": "Ver",
         "descargar": "Descargar",
         "titulos": {
-          "conv1": "Convocatoria Nacional de Ciencia",
-          "conv2": "Convocatoria de Arte Universitario",
-          "conv3": "Convocatoria de Emprendimiento Juvenil",
-          "conv4": "Convocatoria de Talento Tecnológico",
-          "conv5": "Convocatoria Estatal de Robótica"
+          "conv1": "Corte y confeccion",
+          "conv2": "Idiomas",
+          "conv3": "Construccion",
+          "conv4": "Mecanica para mujeres",
+          "conv5": "Ciencia de datos"
         }
       },
     
