@@ -137,7 +137,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-top: solid rgba(158, 158, 158, 0.515);
+    border-top: solid 0.1px rgba(130, 130, 130, 0.314);
   }
 
   .video{
