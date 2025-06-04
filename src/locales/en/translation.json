@@ -36,11 +36,11 @@
     "tooltipVer": "Click to view more information about the event",
     "tooltipDescargar": "Click to download the event document",
     "titulos": {
-      "evento1": "First official event",
-      "evento2": "Second event",
-      "evento3": "Third event",
-      "evento4": "Fourth event",
-      "evento5": "Fifth event"
+      "evento1": "Pastries",
+      "evento2": "Carpentry",
+      "evento3": "Electricity",
+      "evento4": "Plumbing",
+      "evento5": "Marblework"
     }
   },
 
@@ -49,11 +49,11 @@
       "ver": "View",
       "descargar": "Download",
       "titulos": {
-        "conv1": "National Science Call",
-        "conv2": "University Art Call",
-        "conv3": "Youth Entrepreneurship Call",
-        "conv4": "Tech Talent Call",
-        "conv5": "State Robotics Call"
+        "conv1": "Cutting and Sewing",
+        "conv2": "Languages",
+        "conv3": "Construction",
+        "conv4": "Mechanics for women",
+        "conv5": "Data Science"
       }
     },
 
