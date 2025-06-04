@@ -21,14 +21,14 @@ const Carrusel = () => {
         <SwiperSlide>
           <div className="slide-wrapper">
             <img src={carrusel1} alt="Evento de la comunidad Nayarita en California" />
-            <span className="slide-tooltip">Evento de la comunidad Nayarita en California</span>
+            <span className="slide-tooltip">Aprende Carpintería</span>
           </div>
         </SwiperSlide>
 
         <SwiperSlide>
           <div className="slide-wrapper">
             <img src={carrusel2} alt="Banner oficial de BEU México 2024" />
-            <span className="slide-tooltip">Banner oficial de BEU México 2024</span>
+            <span className="slide-tooltip">Aprende a cocinar</span>
           </div>
         </SwiperSlide>
       </Swiper>

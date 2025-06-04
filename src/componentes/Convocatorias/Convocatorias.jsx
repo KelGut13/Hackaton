@@ -3,17 +3,21 @@ import { useTranslation } from 'react-i18next';
 import './Convocatorias.css';
 
 //Importación de las imagens de convocatoria
-import Conv1 from "../../imagenes/Convocatorias/Conv1.png";
+import Img1 from "../../imagenes/Clubs/corteyconflexion-500x500.jpg";
+import Img2 from "../../imagenes/Clubs/idiomas-500x500.jpg";
+import Img3 from "../../imagenes/Clubs/construccion-500x500.jpg";
+import Img4 from "../../imagenes/Clubs/mecanica para mujeres-500x500.jpg";
+import Img5 from "../../imagenes/Clubs/ciencia dedatos-500x500.jpg";
 
 //Importación de los archivos (PDF o Imagen) de los eventos
 import Conv1pdf from "../../descargas/DescConv/Conv1.pdf";
 
 const convocatorias = [
-  { id: 1, titulo: 'convocatorias.titulos.conv1', imagen: Conv1, archivo: Conv1pdf },
-  { id: 2, titulo: 'convocatorias.titulos.conv2', imagen: Conv1, archivo: '/descargas/conv2.pdf' },
-  { id: 3, titulo: 'convocatorias.titulos.conv3', imagen: Conv1, archivo: '/descargas/conv3.pdf' },
-  { id: 4, titulo: 'convocatorias.titulos.conv4', imagen: Conv1, archivo: '/descargas/conv4.pdf' },
-  { id: 5, titulo: 'convocatorias.titulos.conv5', imagen: Conv1, archivo: '/descargas/conv5.pdf' },
+  { id: 1, titulo: 'convocatorias.titulos.conv1', imagen: Img1, archivo: Conv1pdf },
+  { id: 2, titulo: 'convocatorias.titulos.conv2', imagen: Img2, archivo: '/descargas/conv2.pdf' },
+  { id: 3, titulo: 'convocatorias.titulos.conv3', imagen: Img3, archivo: '/descargas/conv3.pdf' },
+  { id: 4, titulo: 'convocatorias.titulos.conv4', imagen: Img4, archivo: '/descargas/conv4.pdf' },
+  { id: 5, titulo: 'convocatorias.titulos.conv5', imagen: Img5, archivo: '/descargas/conv5.pdf' },
 ];
 
 export default function Convocatorias() {

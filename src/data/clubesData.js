@@ -6,7 +6,7 @@ const clubesData = [
       presidente: "",
       correo: "",
       telefono: "",
-      imagen: require("../imagenes/Clubs/Club1.png"),
+      imagen: require("../imagenes/Clubs/descarga-500x500.jpg"),
     },
     {
       id: 2,
@@ -14,7 +14,7 @@ const clubesData = [
       presidente: "",
       correo: "",
       telefono: "",
-      imagen: require("../imagenes/Clubs/Club1.png"),
+      imagen: require("../imagenes/Clubs/Carpinteria-500x500.jpg"),
     },
     {
       id: 3,
@@ -22,7 +22,7 @@ const clubesData = [
       presidente: "",
       correo: "",
       telefono: "",
-      imagen: require("../imagenes/Clubs/Club1.png"),
+      imagen: require("../imagenes/Clubs/Electricista-500x500.jpg"),
     },
     {
       id: 4,
@@ -30,7 +30,7 @@ const clubesData = [
       presidente: "",
       correo: "",
       telefono: "",
-      imagen: require("../imagenes/Clubs/Club1.png"),
+      imagen: require("../imagenes/Clubs/Fontanero-500x500.jpg"),
     },
     {
       id: 5,
@@ -38,7 +38,7 @@ const clubesData = [
       presidente: "",
       correo: "",
       telefono: "",
-      imagen: require("../imagenes/Clubs/Club1.png"),
+      imagen: require("../imagenes/Clubs/marmoleo-500x500.jpg"),
     },
     {
       id: 6,
@@ -46,7 +46,7 @@ const clubesData = [
       presidente: "",
       correo: "",
       telefono: "",
-      imagen: require("../imagenes/Clubs/Club1.png"),
+      imagen: require("../imagenes/Clubs/corteyconflexion-500x500.jpg"),
     },
     {
       id: 7,
@@ -54,7 +54,7 @@ const clubesData = [
       presidente: "",
       correo: "",
       telefono: "",
-      imagen: require("../imagenes/Clubs/Club1.png"),
+      imagen: require("../imagenes/Clubs/idiomas-500x500.jpg"),
     },
     {
       id: 8,
@@ -62,7 +62,7 @@ const clubesData = [
       presidente: "",
       correo: "",
       telefono: "",
-      imagen: require("../imagenes/Clubs/Club1.png"),
+      imagen: require("../imagenes/Clubs/construccion-500x500.jpg"),
     },
     {
       id: 9,
@@ -70,7 +70,7 @@ const clubesData = [
       presidente: "",
       correo: "",
       telefono: "",
-      imagen: require("../imagenes/Clubs/Club1.png"),
+      imagen: require("../imagenes/Clubs/mecanica para mujeres-500x500.jpg"),
     },
     {
       id: 10,
@@ -78,7 +78,7 @@ const clubesData = [
       presidente: "",
       correo: "",
       telefono: "",
-      imagen: require("../imagenes/Clubs/Club1.png"),
+      imagen: require("../imagenes/Clubs/ciencia dedatos-500x500.jpg"),
     },
   ];
   

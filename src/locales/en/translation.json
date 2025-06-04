@@ -1,40 +1,30 @@
 {
   "navbar": {
-    "inicio": "Home",
-    "cursos": "Cursos",
-    "login": "Login",
-    "language": "Language",
-    "darkmode": "Dark",
-    "lightmode": "Light"
+    "inicio": "Iyari",
+    "cursos": "Xuki kamexeta",
+    "login": "Tewiyari",
+    "language": "Teiwari",
+    "darkmode": "Naka xiewe",
+    "lightmode": "Tawi xiewe"
   },
 
   "footer": {
-    "descripcion": "FENINE",
-    "enlaces": "Sites of Interest",
-    "siguenos": "Follow Us",
-    "derechos": "FENINE. All rights reserved.",
-    "desarrollado": "Website developed by ",
-    "gob_nayarit": "Government of the State of Nayarit",
-    "gob_mexico": "Government of Mexico",
-    "sre": "Ministry of Foreign Affairs"
+    "descripcion": "EduDiversa",
+    "enlaces": "Kwikarieka",
+    "siguenos": "Neikarieka",
+    "derechos": "EduDiversa. Tayautsita aitsie iyaixuka.",
+    "desarrollado": "Xawemea iyatsita ",
+    "gob_nayarit": "Nayariteu Teiwari Xawemea",
+    "gob_mexico": "Méxikoteu Teiwari Xawemea",
+    "sre": "Teiwari xawemea wiyatsie"
   },
-
-  "inicio": {
-    "titulo-resena": "National and International Federation of Nayaritas in the United States",
-    "texto-resena": "It is a non-profit organization that represents the Nayarit community abroad. Composed of 35 clubs from different municipalities, its mission is to support and promote the well-being of Nayaritas both in the United States and in Mexico. With a strong commitment to its people, FENINE-USA works to strengthen cultural ties, provide assistance, and foster the development of Nayarit communities in both countries."
-  },
-
-  "ubicacion": {
-    "titulo": "Location",
-    "direccion": "514 W Anaheim St, Wilmington, CA 90744, United States"
-  },    
 
   "eventos": {
-    "titulo": "Events",
-    "ver": "View",
-    "descargar": "Download",
-    "tooltipVer": "Click to view more information about the event",
-    "tooltipDescargar": "Click to download the event document",
+    "titulo": "Xuki kamexeta",
+    "ver": "Tekutsiyari",
+    "descargar": "Kutsiyari",
+    "tooltipVer": "Iyari: tekutsiyari xuki kamexeta",
+    "tooltipDescargar": "Iyari: kutsiyari xuki neixa",
     "titulos": {
       "evento1": "Pastries",
       "evento2": "Carpentry",
@@ -66,5 +56,15 @@
         "telefono": "Phone"
       }
     }
-  
+  },
+
+  "clubs": {
+    "titulo": "Xuki kamexeta",
+    "boton-mas-info": "Tekutsiyari",
+    "presidente": "Tewiyari xawemea",
+    "contacto": {
+      "email": "Eya teiwari",
+      "telefono": "Naka teiwari"
+    }
+  }
 }

@@ -2,16 +2,18 @@ import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import './Eventos.css';
 
-import Evento1 from "../../imagenes/Eventos/Evento1.png";
-import EventoEj from "../../imagenes/Eventos/EventoEj.png";
-import Evento1pdf from "../../descargas/DescEventos/Evento1.pdf";
+import Img1 from "../../imagenes/Clubs/descarga-500x500.jpg";
+import Img2 from "../../imagenes/Clubs/Carpinteria-500x500.jpg";
+import Img3 from "../../imagenes/Clubs/Electricista-500x500.jpg";
+import Img4 from "../../imagenes/Clubs/Fontanero-500x500.jpg";
+import Img5 from "../../imagenes/Clubs/marmoleo-500x500.jpg";
 
 const eventos = [
-  { id: 1, titulo: 'eventos.titulos.evento1', imagen: Evento1, archivo: Evento1pdf },
-  { id: 2, titulo: 'eventos.titulos.evento2', imagen: EventoEj, archivo: '/descargas/dos.pdf' },
-  { id: 3, titulo: 'eventos.titulos.evento3', imagen: EventoEj, archivo: '/descargas/tres.pdf' },
-  { id: 4, titulo: 'eventos.titulos.evento4', imagen: EventoEj, archivo: '/descargas/cuatro.pdf' },
-  { id: 5, titulo: 'eventos.titulos.evento5', imagen: EventoEj, archivo: '/descargas/cinco.pdf' },
+  { id: 1, titulo: 'eventos.titulos.evento1', imagen: Img1, archivo: '/descargas/uno.pdf' },
+  { id: 2, titulo: 'eventos.titulos.evento2', imagen: Img2, archivo: '/descargas/dos.pdf' },
+  { id: 3, titulo: 'eventos.titulos.evento3', imagen: Img3, archivo: '/descargas/tres.pdf' },
+  { id: 4, titulo: 'eventos.titulos.evento4', imagen: Img4, archivo: '/descargas/cuatro.pdf' },
+  { id: 5, titulo: 'eventos.titulos.evento5', imagen: Img5, archivo: '/descargas/cinco.pdf' },
 ];
 
 export default function Eventos() {

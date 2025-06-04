@@ -84,10 +84,10 @@ const Navbar = () => {
           <li className="language">
             <span>{t("navbar.language")}:</span>
             <button onClick={() => changeLanguage("es")} className="flag-button">
-              <img src={mexicoFlag} alt="Español" className="flag" />
+              <p>Español</p>
             </button>
             <button onClick={() => changeLanguage("en")} className="flag-button">
-              <img src={usaFlag} alt="English" className="flag" />
+              <p>Wixárika</p>
             </button>
           </li>
           <li>

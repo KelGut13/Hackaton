@@ -3,7 +3,7 @@
     "inicio": "Inicio",
     "cursos": "Cursos",
     "login": "Login",
-    "language": "Idioma",
+    "language": "Lengua",
     "darkmode": "Oscuro",
     "lightmode": "Claro"
   },
@@ -19,27 +19,17 @@
     "sre": "Secretaría de Relaciones Exteriores"
   },
 
-  "inicio": {
-    "titulo-resena": "Federación Nacional e Internacional de Nayaritas en Estados Unidos",
-    "texto-resena": "Es una organización sin fines de lucro que representa a la comunidad nayarita en el exterior. Integrada por 35 clubes provenientes de distintos municipios, su misión es apoyar y promover el bienestar de los nayaritas, tanto en Estados Unidos como en México.  Con un compromiso sólido por su gente, FENINE-USA trabaja para fortalecer los lazos culturales, brindar asistencia y fomentar el desarrollo de las comunidades nayaritas en ambos países."
-  },
-
-  "ubicacion": {
-    "titulo": "Ubicación",
-    "direccion": "514 W Anaheim St, Wilmington, CA 90744, Estados Unidos"
-  },
-
    "eventos": {
   "titulo": "Nuevos cursos",
-  "ver": "Ver",
+  "ver": "Acceder",
   "descargar": "Descargar",
   "tooltipVer": "Haz clic para ver más información del evento",
   "tooltipDescargar": "Haz clic para descargar el documento del evento",
   "titulos": {
-    "evento1": "Reposteria",
-    "evento2": "Carpinteria",
+    "evento1": "Repostería",
+    "evento2": "Carpintería",
     "evento3": "Electricidad",
-    "evento4": "Fontaneria",
+    "evento4": "Fontanería",
     "evento5": "Marmolero"
   }
 },
@@ -47,13 +37,13 @@
   
       "convocatorias": {
         "titulo": "Más populares",
-        "ver": "Ver",
+        "ver": "Acceder",
         "descargar": "Descargar",
         "titulos": {
-          "conv1": "Corte y confeccion",
+          "conv1": "Corte y confección",
           "conv2": "Idiomas",
-          "conv3": "Construccion",
-          "conv4": "Mecanica para mujeres",
+          "conv3": "Construcción",
+          "conv4": "Mecánica para mujeres",
           "conv5": "Ciencia de datos"
         }
       },
