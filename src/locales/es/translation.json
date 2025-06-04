@@ -30,7 +30,7 @@
   },
 
    "eventos": {
-  "titulo": "Eventos",
+  "titulo": "Nuevos cursos",
   "ver": "Ver",
   "descargar": "Descargar",
   "tooltipVer": "Haz clic para ver más información del evento",
@@ -46,7 +46,7 @@
 
   
       "convocatorias": {
-        "titulo": "Convocatorias",
+        "titulo": "Más populares",
         "ver": "Ver",
         "descargar": "Descargar",
         "titulos": {
@@ -59,8 +59,8 @@
       },
     
       "clubs": {
-        "titulo": "Clubes",
-        "boton-mas-info": "Más información",
+        "titulo": "Cursos",
+        "boton-mas-info": "Acceder",
         "presidente": "Presidente",
         "contacto": {
           "email": "Correo electrónico",

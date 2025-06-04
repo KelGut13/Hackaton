@@ -30,7 +30,7 @@ const Footer = () => {
         <div className="footer-social">
           <h3>{t("footer.siguenos")}</h3>
           <div className="social-icons">
-            <a href="https://www.facebook.com/Nayaritas" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-facebook"></i>
             </a>
             <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">

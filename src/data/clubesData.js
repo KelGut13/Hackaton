@@ -2,7 +2,7 @@
 const clubesData = [
     {
       id: 1,
-      nombre: "Acuitapilco",
+      nombre: "Repostería",
       presidente: "",
       correo: "",
       telefono: "",
@@ -10,7 +10,7 @@ const clubesData = [
     },
     {
       id: 2,
-      nombre: "Borbollón",
+      nombre: "Carpintería",
       presidente: "",
       correo: "",
       telefono: "",
@@ -18,7 +18,7 @@ const clubesData = [
     },
     {
       id: 3,
-      nombre: "Camotlenses USA",
+      nombre: "Electricidad",
       presidente: "",
       correo: "",
       telefono: "",
@@ -26,7 +26,7 @@ const clubesData = [
     },
     {
       id: 4,
-      nombre: "Compostalenses Unidos",
+      nombre: "Fontanería",
       presidente: "",
       correo: "",
       telefono: "",
@@ -34,7 +34,7 @@ const clubesData = [
     },
     {
       id: 5,
-      nombre: "Coras de la Virocha",
+      nombre: "Marmolero",
       presidente: "",
       correo: "",
       telefono: "",
@@ -42,7 +42,7 @@ const clubesData = [
     },
     {
       id: 6,
-      nombre: "Ixtlán del Rio L.A",
+      nombre: "Corte y confección",
       presidente: "",
       correo: "",
       telefono: "",
@@ -50,7 +50,7 @@ const clubesData = [
     },
     {
       id: 7,
-      nombre: "Jala de Los Ángeles",
+      nombre: "Idiomas",
       presidente: "",
       correo: "",
       telefono: "",
@@ -58,7 +58,7 @@ const clubesData = [
     },
     {
       id: 8,
-      nombre: "Jalco",
+      nombre: "Construcción",
       presidente: "",
       correo: "",
       telefono: "",
@@ -66,7 +66,7 @@ const clubesData = [
     },
     {
       id: 9,
-      nombre: "Juan Escutia Borbollón",
+      nombre: "Mecánica para mujeres",
       presidente: "",
       correo: "",
       telefono: "",
@@ -74,7 +74,7 @@ const clubesData = [
     },
     {
       id: 10,
-      nombre: "Koras de Ixtapa",
+      nombre: "Ciencia de datos",
       presidente: "",
       correo: "",
       telefono: "",
