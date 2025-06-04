@@ -79,15 +79,6 @@ const Inicio = () => {
       <div className="Inicio-Seccion_Tres">
         <Convocatorias />
       </div>
-
-      <div className="Inicio-Seccion_Cuatro">
-        <h2 className="ubicacion-titulo">{t("ubicacion.titulo")}</h2>
-        <div className="ubicacion-contenido">
-          <div className="ubicacion-texto">
-            <p>{t("ubicacion.direccion")}</p>
-          </div>
-        </div>
-      </div>
       <Accesibilidad />
     </div>
   );
