@@ -23,7 +23,6 @@ const Footer = () => {
           <ul>
             <li><a href="https://www.nayarit.gob.mx/">{t("footer.gob_nayarit")}</a></li>
             <li><a href="https://www.gob.mx/">{t("footer.gob_mexico")}</a></li>
-            <li><a href="https://www.gob.mx/sre">{t("footer.sre")}</a></li>
           </ul>
         </div>
 
@@ -45,7 +44,7 @@ const Footer = () => {
       <div className="footer-bottom">
         <p>&copy; {new Date().getFullYear()} {t("footer.derechos")}</p>
         <p className="developer">
-          {t("footer.desarrollado")} <a href="https://www.keycapsoft.com" target="_blank" rel="noopener noreferrer" className="keycapsoft">Keycapsoft</a>
+          {t("footer.desarrollado")} <a href="#" target="_blank" rel="noopener noreferrer" className="keycapsoft">Navegantes Web</a>
         </p>
       </div>
     </footer>
