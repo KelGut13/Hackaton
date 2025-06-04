@@ -1,8 +1,7 @@
 {
   "navbar": {
     "inicio": "Inicio",
-    "directorio": "Directorio",
-    "clubes": "Clubes",
+    "cursos": "Cursos",
     "login": "Login",
     "language": "Idioma",
     "darkmode": "Oscuro",

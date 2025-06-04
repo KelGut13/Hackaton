@@ -79,7 +79,7 @@ const Navbar = () => {
           {!isHomePage && (
             <li><Link to={`/${lng}`} onClick={() => setMenuOpen(false)}>{t("navbar.inicio")}</Link></li>
           )}
-          <li><Link to={`/${lng}/clubs`} onClick={() => setMenuOpen(false)}>{t("navbar.clubes")}</Link></li>
+          <li><Link to={`/${lng}/cursos`} onClick={() => setMenuOpen(false)}>{t("navbar.cursos")}</Link></li>
           
           <li className="language">
             <span>{t("navbar.language")}:</span>

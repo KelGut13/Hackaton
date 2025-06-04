@@ -1,8 +1,8 @@
 {
   "navbar": {
     "inicio": "Home",
-    "clubes": "Clubs",
-    "contactanos": "Contact Us",
+    "cursos": "Cursos",
+    "login": "Login",
     "language": "Language",
     "darkmode": "Dark",
     "lightmode": "Light"

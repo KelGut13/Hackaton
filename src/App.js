@@ -3,9 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate, useParams } from "rea
 import { useTranslation } from "react-i18next";
 import Navbar from "./componentes/NavBar/NavBar";
 import Inicio from "./paginas/Inicio";
-import Clubes from "./paginas/Clubes";
-import Directorio from "./paginas/Directorio";
-import Contactanos from "./paginas/Contactanos";
+import Cursos from "./paginas/Cursos";
 import Login from "./paginas/Login";
 import Footer from "./componentes/Footer/Footer";
 import "./i18n";
@@ -31,9 +29,7 @@ const LanguageWrapper = () => {
       <Navbar />
       <Routes>
         <Route path="/" element={<Inicio />} />
-        <Route path="clubs" element={<Clubes />} />
-        <Route path="directorio" element={<Directorio />} />
-        <Route path="contactanos" element={<Contactanos />} />
+        <Route path="cursos" element={<Cursos />} />
         <Route path="login" element={<Login />} />
       </Routes>
       <Footer />
