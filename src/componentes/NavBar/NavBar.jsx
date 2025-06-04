@@ -80,7 +80,7 @@ const Navbar = () => {
             <li><Link to={`/${lng}`} onClick={() => setMenuOpen(false)}>{t("navbar.inicio")}</Link></li>
           )}
           <li><Link to={`/${lng}/clubs`} onClick={() => setMenuOpen(false)}>{t("navbar.clubes")}</Link></li>
-          <li><Link to={`/${lng}/contactanos`} onClick={() => setMenuOpen(false)}>{t("navbar.contactanos")}</Link></li>
+          
           <li className="language">
             <span>{t("navbar.language")}:</span>
             <button onClick={() => changeLanguage("es")} className="flag-button">
@@ -95,6 +95,7 @@ const Navbar = () => {
               {theme === "light" ? "🌙 " + t("navbar.darkmode") : "☀️ " + t("navbar.lightmode")}
             </button>
           </li>
+          <li><Link to={`/${lng}/login`} onClick={() => setMenuOpen(false)}>{t("navbar.login")}</Link></li>
           <li></li>
         </ul>
 

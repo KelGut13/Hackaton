@@ -6,6 +6,7 @@ import Inicio from "./paginas/Inicio";
 import Clubes from "./paginas/Clubes";
 import Directorio from "./paginas/Directorio";
 import Contactanos from "./paginas/Contactanos";
+import Login from "./paginas/Login";
 import Footer from "./componentes/Footer/Footer";
 import "./i18n";
 import "./paginas/estilos/variables.css";
@@ -33,6 +34,7 @@ const LanguageWrapper = () => {
         <Route path="clubs" element={<Clubes />} />
         <Route path="directorio" element={<Directorio />} />
         <Route path="contactanos" element={<Contactanos />} />
+        <Route path="login" element={<Login />} />
       </Routes>
       <Footer />
     </>
