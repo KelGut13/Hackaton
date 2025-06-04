@@ -46,14 +46,6 @@ const Inicio = () => {
           <div className="ubicacion-texto">
             <p>{t("ubicacion.direccion")}</p>
           </div>
-          <div className="ubicacion-mapa">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3316.27409871622!2d-118.27082762065429!3d33.779419299999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dd35d96391071d%3A0xf352969bdddb5f0f!2sFederaci%C3%B3n%20Nacional%20e%20International%20de%20Nayaritas%20en%20Estados%20Unidos!5e0!3m2!1ses-419!2smx!4v1744858181160!5m2!1ses-419!2smx"
-              allowFullScreen=""
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
-          </div>
         </div>
       </div>
       <Accesibilidad />
