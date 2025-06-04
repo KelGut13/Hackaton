@@ -1,22 +1,49 @@
+/* Video de fondo */
+.video-fondo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  object-fit: cover;
+  z-index: -2;
+}
+
+/* Capa oscura sobre el video */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+
+/* Contenedor principal centrado */
 .registro-container {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: linear-gradient(to right, #93c5fd, #3b82f6);
+  padding: 1rem;
+  box-sizing: border-box;
+  z-index: 1;
 }
 
+/* Formulario */
 .registro-form {
   background: white;
   padding: 2rem;
-  margin-top: 120px;
-  margin-bottom: 20px;
   border-radius: 1.5rem;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   width: 100%;
   max-width: 400px;
+  z-index: 2;
 }
 
+/* Título del formulario */
 .registro-title {
   font-size: 1.5rem;
   color: #1e40af;
@@ -25,12 +52,14 @@
   margin-bottom: 1.5rem;
 }
 
+/* Etiquetas */
 .registro-label {
   display: block;
   font-weight: 500;
   margin-bottom: 0.5rem;
 }
 
+/* Entradas y select */
 .registro-input {
   width: 100%;
   padding: 0.5rem;
@@ -40,15 +69,18 @@
   font-size: 1rem;
 }
 
+/* Fila doble */
 .registro-row {
   display: flex;
   gap: 1rem;
 }
 
+/* Mitad de fila */
 .registro-half {
   flex: 1;
 }
 
+/* Enlace CURP */
 .registro-curp-link {
   font-size: 0.875rem;
   margin-bottom: 1rem;
@@ -60,6 +92,7 @@
   text-decoration: underline;
 }
 
+/* Botón */
 .registro-button {
   width: 100%;
   background-color: #1d4ed8;
@@ -73,5 +106,5 @@
 }
 
 .registro-button:hover {
-  background-color: #1e40af;
+  background-color: #1e40af;
 }

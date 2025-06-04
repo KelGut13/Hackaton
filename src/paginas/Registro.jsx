@@ -1,11 +1,21 @@
 import React from "react";
 import "./estilos/Registro.css";
 import Separar from "../componentes/Separador NavBar/Separador";
+import fondo from '../videos/fondo.mp4.mp4';
 
 const Registro = () => {
   return (
     <div className="registro-container">
-        
+      {/* Video de fondo */}
+      <video autoPlay loop muted className="video-fondo">
+        <source src={fondo} type="video/mp4" />
+        Tu navegador no soporta videos HTML5.
+      </video>
+
+      {/* Capa superpuesta para oscurecer un poco el fondo si deseas */}
+      <div className="overlay"></div>
+
+      {/* Contenido principal del formulario */}
       <form className="registro-form">
         <h2 className="registro-title">Registro</h2>
 
@@ -51,10 +61,10 @@ const Registro = () => {
         <label className="registro-label">Etnia</label>
         <select className="registro-input">
           <option value="">Selecciona</option>
-          <option value="mestiza">Mestiza</option>
-          <option value="indigena">Indígena</option>
-          <option value="afromexicana">Afromexicana</option>
-          <option value="otra">Otra</option>
+          <option value="mestiza">Coras</option>
+          <option value="indigena">Wixarikas</option>
+          <option value="afromexicana">Mexicaneros</option>
+          <option value="mestizos">Mestizos</option>
         </select>
 
         <button type="submit" className="registro-button">
@@ -65,4 +75,4 @@ const Registro = () => {
   );
 };
 
-export default Registro;
+export default Registro;
