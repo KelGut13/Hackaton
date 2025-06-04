@@ -34,27 +34,16 @@
     }
   },
 
-    "convocatorias": {
-      "titulo": "Calls for Proposals",
-      "ver": "View",
-      "descargar": "Download",
-      "titulos": {
-        "conv1": "Cutting and Sewing",
-        "conv2": "Languages",
-        "conv3": "Construction",
-        "conv4": "Mechanics for women",
-        "conv5": "Data Science"
-      }
-    },
-
-    "clubs": {
-      "titulo": "Clubs",
-      "boton-mas-info": "More info",
-      "presidente": "President",
-      "contacto": {
-        "email": "Email",
-        "telefono": "Phone"
-      }
+  "convocatorias": {
+    "titulo": "Calls for Proposals",
+    "ver": "View",
+    "descargar": "Download",
+    "titulos": {
+      "conv1": "Cutting and Sewing",
+      "conv2": "Languages",
+      "conv3": "Construction",
+      "conv4": "Mechanics for women",
+      "conv5": "Data Science"
     }
   },
 
