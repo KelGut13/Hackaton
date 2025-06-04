@@ -18,7 +18,7 @@
   
   .tarjeta-convocatoria {
     background-color: var(--ini-tevent-bgcolor);
-    border-radius: 16px;
+    border-radius: 10px;
     box-shadow: 0 4px 12px rgba(255, 255, 255, 0.127);
     padding: 15px;
     transition: transform 0.3s;
