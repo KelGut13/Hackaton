@@ -20,7 +20,7 @@ function Login() {
                     <input type="password" id="password" name="password" required />
                     <button type="submit">Iniciar</button>
                     <a href="#" className="forgot-password"> ¿Olvidaste tu contraseña?</a>
-                    <a href="#" className="forgot-password"> ¿No tienes cuenta? Registrate aquí</a>
+                    <a href="Registro" className="forgot-password"> ¿No tienes cuenta? Registrate aquí</a>
                 </form>
             </div>
         </div>

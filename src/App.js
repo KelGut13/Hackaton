@@ -5,6 +5,7 @@ import Navbar from "./componentes/NavBar/NavBar";
 import Inicio from "./paginas/Inicio";
 import Cursos from "./paginas/Cursos";
 import Login from "./paginas/Login";
+import Regsitro from "./paginas/Registro";
 import Footer from "./componentes/Footer/Footer";
 import "./i18n";
 import "./paginas/estilos/variables.css";
@@ -31,6 +32,7 @@ const LanguageWrapper = () => {
         <Route path="/" element={<Inicio />} />
         <Route path="cursos" element={<Cursos />} />
         <Route path="login" element={<Login />} />
+        <Route path="registro" element={<Regsitro />}/>
       </Routes>
       <Footer />
     </>

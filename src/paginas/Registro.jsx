@@ -1,9 +1,11 @@
 import React from "react";
 import "./estilos/Registro.css";
+import Separar from "../componentes/Separador NavBar/Separador";
 
 const Registro = () => {
   return (
     <div className="registro-container">
+        
       <form className="registro-form">
         <h2 className="registro-title">Registro</h2>
 
